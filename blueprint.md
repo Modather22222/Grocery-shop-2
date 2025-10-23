@@ -1,27 +1,39 @@
-# EcoEats App Blueprint
+# E-Commerce App Blueprint
 
 ## Overview
 
-EcoEats is a mobile application designed to promote sustainable and healthy eating habits. The app will provide users with a platform to discover eco-friendly restaurants, find recipes using locally sourced ingredients, and track their food-related carbon footprint.
+This document outlines the plan and design for a modern e-commerce application built with Flutter. The app will provide a seamless and visually appealing shopping experience for users, featuring a clean and intuitive interface, robust navigation, and a focus on modern design principles.
+
+## Style and Design
+
+*   **Theme:** A modern and clean theme with a green accent color, inspired by nature and fresh produce.
+*   **Typography:** The `Lato` and `Oswald` font families from Google Fonts will be used to create a clear and readable text hierarchy.
+*   **Layout:** A responsive layout that adapts to different screen sizes, with a focus on a mobile-first approach.
+*   **Iconography:** Material Design icons will be used for a consistent and intuitive user experience.
+*   **Imagery:** High-quality placeholder images for products and promotional banners.
 
 ## Features
 
-### Authentication
+*   **Splash Screen:** An initial screen that is displayed when the app is first launched.
+*   **User Authentication:**
+    *   Sign-in and sign-up screens.
+    *   Basic form fields for email and password.
+    *   Navigation between sign-in and sign-up screens.
+*   **Home Screen:**
+    *   A promotional banner to highlight special offers.
+    *   A horizontal list of product categories.
+    *   Sections for "Featured Products" and "Best Sellers."
+    *   A side drawer for navigation.
+*   **Product Listing Screen:** A grid view of all available products.
+*   **Product Detail Screen:** A detailed view of a single product, including its image, name, price, rating, and description.
+*   **Routing:** A declarative routing system using `go_router` to manage navigation between screens.
 
-*   **Splash Screen:** A visually appealing splash screen that appears when the app is launched.
-*   **Sign-in Screen:** Allows existing users to log in to their accounts using their email and password.
-*   **Sign-up Screen:** Enables new users to create an account by providing their name, email, and password.
+## Current Plan
 
-### Core Functionality (Future Implementation)
-
-*   **Restaurant Finder:** A map-based feature to discover nearby restaurants with sustainable practices.
-*   **Recipe Book:** A collection of recipes that prioritize local, seasonal, and low-impact ingredients.
-*   **Carbon Footprint Tracker:** A tool for users to log their meals and estimate the environmental impact.
-*   **Community Forum:** A space for users to share tips, recipes, and experiences related to sustainable eating.
-
-## Design
-
-*   **Color Palette:** The primary color scheme will revolve around green and earthy tones to reflect the app's eco-friendly theme.
-*   **Typography:** A clean and readable font like Lato will be used for body text, while a more stylized font like Pacifico will be used for headings and branding.
-*   **Iconography:** The app will utilize icons from the Material Design library, with a focus on nature and food-related symbols.
-*   **Layout:** The layout will be clean, intuitive, and easy to navigate, with a focus on a mobile-first design.
+1.  **Create the initial project structure:** Set up the necessary folders and files for the application.
+2.  **Implement the splash screen:** Create a simple and visually appealing splash screen.
+3.  **Build the user authentication flow:** Design and implement the sign-in and sign-up screens.
+4.  **Design the home screen:** Create a modern and intuitive home screen with product categories and featured items.
+5.  **Develop the product listing and detail screens:** Build the screens for displaying product grids and individual product details.
+6.  **Set up routing:** Implement a robust navigation system using `go_router`.
+7.  **Refine the UI and theme:** Apply a consistent and modern theme to the entire application.
